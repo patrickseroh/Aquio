@@ -1,0 +1,84 @@
+{
+  "C": 1.0,
+  "valid_macro_f1": 0.9629,
+  "test_accuracy": 0.7572,
+  "test_macro_precision": 0.79,
+  "test_macro_recall": 0.8225,
+  "test_macro_f1": 0.7684,
+  "per_class": {
+    "Clean": {
+      "precision": 0.6116504854368932,
+      "recall": 1.0,
+      "f1-score": 0.7590361445783133,
+      "support": 63.0
+    },
+    "Cloudy": {
+      "precision": 0.5691318327974276,
+      "recall": 0.815668202764977,
+      "f1-score": 0.6704545454545454,
+      "support": 217.0
+    },
+    "Foam": {
+      "precision": 0.9847328244274809,
+      "recall": 0.49049429657794674,
+      "f1-score": 0.6548223350253807,
+      "support": 263.0
+    },
+    "Polluted": {
+      "precision": 0.9945652173913043,
+      "recall": 0.9838709677419355,
+      "f1-score": 0.9891891891891892,
+      "support": 186.0
+    },
+    "accuracy": 0.757201646090535,
+    "macro avg": {
+      "precision": 0.7900200900132764,
+      "recall": 0.8225083667712147,
+      "f1-score": 0.7683755535618572,
+      "support": 729.0
+    },
+    "weighted avg": {
+      "precision": 0.8312886852658109,
+      "recall": 0.757201646090535,
+      "f1-score": 0.753793383776316,
+      "support": 729.0
+    }
+  },
+  "confusion": [
+    [
+      63,
+      0,
+      0,
+      0
+    ],
+    [
+      37,
+      177,
+      2,
+      1
+    ],
+    [
+      0,
+      134,
+      129,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      183
+    ]
+  ],
+  "classes": [
+    "Clean",
+    "Cloudy",
+    "Foam",
+    "Polluted"
+  ],
+  "n": {
+    "train": 3905,
+    "valid": 620,
+    "test": 729
+  }
+}
